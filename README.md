@@ -13,16 +13,26 @@ npm install dotenv
 ## routes
 
 localhost:3000/send-message
+```json
 {
   "name": "",
   "phoneNumber": "",
   "email": "",
   "message": ""
 }
+```
 
 localhost:3000/reply-email
+```json
 {
   "email": "", 
   "subject" : "",
   "message" : ""
 }
+```
+## EMAIL_USER and EMAIL_PASS
+
+Needed to create .env in project root
+
+EMAIL_USER="email" </br>
+EMAIL_PASS="password"
