@@ -7,7 +7,7 @@ export class App {
     constructor() {
         this.server = express()
         this.server.use(json())
-        this.server.use(router())
+        this.server.use(router)
     }
 
     public getServer(): express.Application {
