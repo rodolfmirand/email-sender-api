@@ -10,6 +10,8 @@ npm install uuid @types/uuid
 
 npm install dotenv
 
+npm install knex
+
 ## routes
 
 localhost:3000/send-message
